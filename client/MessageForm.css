@@ -1,0 +1,28 @@
+.MessageForm {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+}
+
+.MessageInput {
+  font-size: 20px;
+  background-color: #fff;
+  outline: none;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    padding: 20px;
+    border: 0;
+    -webkit-transition: .5s;
+    transition: .5s;
+    border-top: 1px solid #ccc;
+}
+.MessageInput:focus {
+  background-color: #fdffe5;
+  -webkit-transition: .5s;
+  transition: .5s;
+}

@@ -1,5 +1,5 @@
 const path = require('path');
-var environment = 'development';
+var environment = 'production';
 var env = process.env.NODE_ENV || environment;
 var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -16,7 +16,6 @@ var plugins = [
     new webpack.HotModuleReplacementPlugin()
 ];
 
-console.log('NODE_ENV:', env);
 
 if (env === 'production') {
     plugins.push(

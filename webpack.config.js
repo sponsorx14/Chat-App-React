@@ -1,5 +1,5 @@
 const path = require('path');
-var environment = 'production';
+var environment = 'development';
 var env = process.env.NODE_ENV || environment;
 var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
